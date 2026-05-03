@@ -1,5 +1,5 @@
 -- Basalt 2 Generated Code
-local basalt = require("basalt")
+local basalt = require("modules/basalt/basalt")
 
 -- Smart Margin System: Auto-adapt to different screen sizes
 local w, h = term.getSize()
@@ -34,6 +34,16 @@ local element3 = main:addButton()
     :setSize(smartSize(11, 3))
     :setText("Next")
     :setBackground(colors.green)
+
+element3:onClick(function(self)
+    local minigame = math.random(1, 4)
+    --[[
+    if minigame == 1 then
+        shell.run("minigames/mashing.lua")
+    end
+    --]]
+    shell.run("mashing.lua")
+end)
 
 -- Start the UI
 basalt.run()

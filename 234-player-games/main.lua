@@ -6,7 +6,7 @@ local function clearterm()
 end
 
 -- Basalt 2 Generated Code
-local basalt = require("basalt")
+local basalt = require("modules/basalt/basalt")
 
 -- Smart Margin System: Auto-adapt to different screen sizes
 local w, h = term.getSize()
@@ -44,7 +44,7 @@ end)
     -- Start the UI
 basalt.run()
 
-
+-- PS: this is old code
 --[[term.clear()
 term.setCursorPos(18, 9)
 print("2 3 4 Player Games")
