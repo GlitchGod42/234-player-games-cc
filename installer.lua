@@ -18,6 +18,9 @@ shell.run("wget https://raw.githubusercontent.com/GlitchGod42/234-player-games-c
 shell.run("cd menus")
 shell.run("wget https://raw.githubusercontent.com/GlitchGod42/234-player-games-cc/refs/heads/main/234-player-games/menus/rounds.lua")
 
+shell.run("cd ../modules")
+shell.run("wget https://raw.githubusercontent.com/GlitchGod42/234-player-games-cc/refs/heads/main/234-player-games/modules/basalt/basalt.lua")
+
 shell.run("cd ../minigames")
 shell.run("wget https://raw.githubusercontent.com/GlitchGod42/234-player-games-cc/refs/heads/main/234-player-games/minigames/mashing.lua")
 

@@ -6,7 +6,7 @@ local function clearterm()
 end
 
 -- Basalt 2 Generated Code
-local basalt = require("modules/basalt/basalt")
+local basalt = require("modules/basalt")
 
 -- Smart Margin System: Auto-adapt to different screen sizes
 local w, h = term.getSize()
