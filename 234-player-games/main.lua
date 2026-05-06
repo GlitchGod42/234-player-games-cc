@@ -38,8 +38,9 @@ local element3 = main:addLabel()
     :setSize(smartSize(21, 1))
     :setText("ComputerCraft Edition")
 
-element1:onClick(function(self)
+element1:onClick(function(self) -- PS: if someone can tell me how to do this pls make a pull request :)
     shell.run("menus/rounds.lua")
+    shell.exit()
 end)
     -- Start the UI
 basalt.run()
